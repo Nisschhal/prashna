@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #2e2e2e;
+}
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Open Sans" source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+}
+
+nav {
+  padding: 10px;
+  height: 500px;
+  background-color: #e2e2e2;
+  position: relative;
+  border-radius: 20px;
+  /* background-image: url("./hero-bg.png"); */
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+}
+
+.buttons {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: #61707e;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  margin: 20px;
+  border-radius: 24px;
+}
+nav .logo {
+  width: 200px;
+}
+
+.hero-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 52px;
+}
+
+.hero-center::before {
+  content: url("./prashna_logo.png");
+}
+
+.btn-download {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text {
+  margin-bottom: 40px;
+}
+
+.main {
+  padding: 40px;
+}
+.main h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.description {
+  line-height: 1.6;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.footer p {
+  line-height: 1.8;
+}
+
+.footer .logo {
+  width: 200px;
+}
+
+.logos {
+  width: 150px;
+  margin: 20px;
+}
+
+.social-logo {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social {
+  height: 30px;
+}
+
+.discord {
+  display: flex;
+  justify-content: center;
+}
+.discord-logo {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.contacts,
+.follow-us,
+.links {
+  width: 30%;
+}
+
+.links p {
+  line-height: 1.8;
+}
